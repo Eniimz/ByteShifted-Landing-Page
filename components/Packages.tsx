@@ -37,7 +37,7 @@ function PackageCard({
             width={38}
             height={38}
           />
-          <span>Popular Choice</span>
+          <span>Popular</span>
         </div>
       )}
       <div className="package-card">

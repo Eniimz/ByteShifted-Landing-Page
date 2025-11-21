@@ -4,6 +4,9 @@ import Showcase from "@/components/Showcase";
 import Packages from "@/components/Packages";
 import Whyus from "@/components/Whyus";
 import Comparison from "@/components/Comparison";
+import CTA from "@/components/CTA";
+import Contact from "@/components/Contact";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <Packages />
       <Whyus />
       <Comparison />
+      <CTA />
+      <Contact />
+      <Footer />
     </>
   );
 }
