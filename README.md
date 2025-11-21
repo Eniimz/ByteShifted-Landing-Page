@@ -1,36 +1,98 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ByteShifted - Email Hosting Landing Page
 
-## Getting Started
+A modern, responsive landing page for ByteShifted Email Hosting services built with Next.js, React, and TypeScript.
 
-First, run the development server:
+## 🚀 Setup
+
+### Prerequisites
+
+- Node.js 18+ installed
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd byteshifted
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## 🏃 Start Development
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The page will automatically reload when you make changes to the code.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Build for Production
 
-## Learn More
+Build the application for production:
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Start the production server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```bash
+npm start
+```
 
-## Deploy on Vercel
+## 📁 Project Structure
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```
+byteshifted/
+├── app/                  # Next.js app directory
+│   ├── globals.css      # Global styles
+│   ├── layout.tsx       # Root layout
+│   └── page.tsx         # Home page
+├── components/          # React components
+│   ├── Header.tsx       # Navigation header
+│   ├── Hero.tsx         # Hero section
+│   ├── Showcase.tsx     # Showcase section
+│   ├── Packages.tsx     # Packages section
+│   ├── Whyus.tsx        # Why Choose Us section
+│   ├── Comparison.tsx   # Comparison section
+│   ├── CTA.tsx          # Call-to-action section
+│   ├── Contact.tsx      # Contact section
+│   └── Footer.tsx       # Footer section
+└── public/              # Static assets
+    └── images/          # Image assets
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Technologies
+
+- **Next.js 16** - React framework
+- **React 19** - UI library
+- **TypeScript** - Type safety
+- **Tailwind CSS** - Styling
+- **CSS** - Custom styles
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm start` - Start production server
+- `npm run lint` - Run ESLint
+
+## 🎨 Features
+
+- Responsive design for all screen sizes
+- Modern UI with glassmorphism effects
+- Optimized images with Next.js Image component
+- TypeScript for type safety
+- Clean component structure
+
+## 📄 License
+
+This project is private.
